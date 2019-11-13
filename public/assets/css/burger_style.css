@@ -1,0 +1,100 @@
+
+
+body {
+    width: 90%;
+   margin: 0 auto; 
+
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   background-color: white;
+}
+
+#burger {
+    display: block;
+   margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Apple Chancery', cursive;
+    font-size: 65px;
+    margin: 50px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted rgb(230, 226, 12);
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgb(219, 40, 40);
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+.burgerAvailable {
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #0e9aec;
+    border: none;
+}
+
+.burgerAvailable:hover {
+    background-color: #c93d06;
+}
+
+.burgerEaten {
+    font-family: 'Apple Chancery', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #5b4485;
+}
+
+h2 {
+     text-align: center;
+    font-family: 'Apple Chancery', cursive;
+    font-size: 40px;
+    margin: 50px;
+}
+
+
+
+.addBurgerButton {
+    font-family: 'Apple Chancery', cursive;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+
+    border-radius: 25px;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(231, 98, 21);
+    border: none;
+}
+
+.addBurgerButton:active {
+   background-color: rgb(180, 192, 111);
+}
